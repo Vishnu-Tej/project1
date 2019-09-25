@@ -2,7 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Practise Test" verbose="3">
-
+<listeners>
+		<listener class-name="listeners.ExtentReportListener" />
+		<!-- <listener class-name="listeners.TestAllureListener" />
+ -->
+	</listeners>
 
 	<test name="Sanity Test for Hubspot">
 		<classes>
