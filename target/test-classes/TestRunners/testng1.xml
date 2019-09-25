@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Practise Test" verbose="3">
+
+
+	<test name="Sanity Test for Hubspot">
+		<classes>
+			<class name="com.qa.practise.tests.Hubspotlogincheck" />
+				</classes>
+	</test>
+</suite>
