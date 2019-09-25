@@ -6,7 +6,7 @@
 
 	<test name="Sanity Test for Hubspot">
 		<classes>
-			<class name="com.qa.practise.tests.Hubspotlogincheck" />
-				</classes>
+			<class name="p1.Hubspotlogincheck" />
+					</classes>
 	</test>
 </suite>
