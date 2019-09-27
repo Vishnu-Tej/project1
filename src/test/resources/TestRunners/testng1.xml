@@ -4,13 +4,13 @@
 <suite name="Practise Test" verbose="3">
 <listeners>
 		<listener class-name="listeners.ExtentReportListener" />
-		<!-- <listener class-name="listeners.TestAllureListener" />
- -->
+		<listener class-name="listeners.TestAllureListener" />
+
 	</listeners>
 
-	<test name="Sanity Test for Hubspot">
+	<test name="initial Test for Hubspot">
 		<classes>
-			<class name="p1.Hubspotlogincheck" />
+			<class name="p1.LoginCheck" />
 					</classes>
 	</test>
 </suite>

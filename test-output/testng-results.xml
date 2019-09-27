@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Practise Test" duration-ms="31" started-at="2019-09-26T16:12:51Z" finished-at="2019-09-26T16:12:51Z">
+  <suite name="Practise Test" duration-ms="18783" started-at="2019-09-27T08:22:22Z" finished-at="2019-09-27T08:22:40Z">
     <groups>
     </groups>
-    <test name="Sanity Test for Hubspot" duration-ms="31" started-at="2019-09-26T16:12:51Z" finished-at="2019-09-26T16:12:51Z">
-    </test> <!-- Sanity Test for Hubspot -->
+    <test name="initial Test for Hubspot" duration-ms="18783" started-at="2019-09-27T08:22:22Z" finished-at="2019-09-27T08:22:40Z">
+      <class name="p1.LoginCheck">
+        <test-method status="PASS" signature="Hubspotlogin()[pri:0, instance:p1.LoginCheck@6b410923]" name="Hubspotlogin" duration-ms="18338" started-at="2019-09-27T13:52:22Z" finished-at="2019-09-27T13:52:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hubspotlogin -->
+      </class> <!-- p1.LoginCheck -->
+    </test> <!-- initial Test for Hubspot -->
   </suite> <!-- Practise Test -->
 </testng-results>

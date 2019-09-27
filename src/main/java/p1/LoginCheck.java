@@ -3,13 +3,13 @@ package p1;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
-//import io.github.bonigarcia.wdm.WebDriverManager;
-
-public class Hubspotlogincheck {
-
-	public static void main(String[] args) {
-		
+public class LoginCheck {
+	
+	@Test
+	public void Hubspotlogin() 
+	{
 		System.setProperty("webdriver.chrome.driver", "F:\\Vishnu Tej\\chromedriver.exe");
 		//WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
@@ -24,7 +24,6 @@ public class Hubspotlogincheck {
 		driver.findElement(By.id("password")).sendKeys("Admin9876");
 		
 		//driver.findElement(By.id("password-login-button")).click();
-		
 	}
 
 }
