@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Practise Test]">
+  <listeners>
+    <listener class-name="listeners.ExtentReportListener"/>
+    <listener class-name="listeners.TestAllureListener"/>
+  </listeners>
+  <test name="initial Test for Hubspot(failed)">
+    <classes>
+      <class name="p1.LoginCheck">
+        <methods>
+          <include name="Hubspotlogin"/>
+        </methods>
+      </class> <!-- p1.LoginCheck -->
+    </classes>
+  </test> <!-- initial Test for Hubspot(failed) -->
+</suite> <!-- Failed suite [Practise Test] -->

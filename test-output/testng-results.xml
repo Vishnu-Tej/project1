@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Practise Test" duration-ms="18783" started-at="2019-09-27T08:22:22Z" finished-at="2019-09-27T08:22:40Z">
+  <suite name="Practise Test" duration-ms="82145" started-at="2019-09-27T14:51:21Z" finished-at="2019-09-27T14:52:43Z">
     <groups>
     </groups>
-    <test name="initial Test for Hubspot" duration-ms="18783" started-at="2019-09-27T08:22:22Z" finished-at="2019-09-27T08:22:40Z">
+    <test name="initial Test for Hubspot" duration-ms="82145" started-at="2019-09-27T14:51:21Z" finished-at="2019-09-27T14:52:43Z">
       <class name="p1.LoginCheck">
-        <test-method status="PASS" signature="Hubspotlogin()[pri:0, instance:p1.LoginCheck@6b410923]" name="Hubspotlogin" duration-ms="18338" started-at="2019-09-27T13:52:22Z" finished-at="2019-09-27T13:52:40Z">
+        <test-method status="PASS" signature="Hubspotlogin()[pri:0, instance:p1.LoginCheck@7e97551f]" name="Hubspotlogin" duration-ms="79459" started-at="2019-09-27T20:21:21Z" finished-at="2019-09-27T20:22:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Hubspotlogin -->
